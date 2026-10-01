@@ -1,0 +1,26 @@
+UML Brief description of each class
+USER class
+will keep track of student name and let user start and see results of test
+
+ATTEMPT class
+will keep track of time started and time submitted for quiz and will calculate score and submit the quiz
+
+QUIZ class
+Will keep track of title and discription of quiz. Its also where the quiz will be displayed
+
+RESPONSE class
+Will keep track Quiz answers, if the question is correct or not, and the points acumaleted 
+
+RESULT class
+will keep track of the final grade of the quiz
+
+QUESTION class
+Will keep track of the quiz questions, the type of question, and its worth in points. 
+It will also check the answers of the user.
+
+ANSWER OPTION class
+will keep track of the quiz answers and possible answers for multiple choice
+
+QUESTON TYPE <<ENUMERATED>>
+
+Are the different types of questions that is used by the QESTION class.
