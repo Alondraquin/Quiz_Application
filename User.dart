@@ -1,6 +1,6 @@
 class User {
   final String name;
-  final List<Attempt> attempts = []; // makes 0..* Attempt
+  final List<Attempt> attempts = []; 
 
   User({required this.name});
 
