@@ -1,3 +1,6 @@
+import 'Attempt.dart';
+import 'Quiz.dart';
+
 class User {
   final String name;
   final List<Attempt> attempts = []; 

@@ -1,3 +1,5 @@
+import 'Question.dart';
+
 class Response {
   final Question question;
   String answerText;

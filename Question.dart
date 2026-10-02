@@ -1,3 +1,6 @@
+import 'AnswerOption.dart';
+import 'QuestionType.dart';
+
 class Question {
   final String prompt;
   final QuestionType type;

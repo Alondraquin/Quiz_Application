@@ -1,5 +1,9 @@
+import 'Quiz.dart';
+import 'Response.dart';
+import 'Result.dart';
+
 class Attempt {
-  final Quiz quiz; 
+  final Quiz quiz;
   final DateTime startedAt;
   DateTime? submittedAt;
   final List<Response> responses = [];

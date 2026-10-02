@@ -1,3 +1,5 @@
+import 'Question.dart';
+
 class Quiz {
   final String title;
   final String description;
