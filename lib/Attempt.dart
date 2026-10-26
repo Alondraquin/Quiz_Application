@@ -1,6 +1,6 @@
-import 'Quiz.dart';
-import 'Response.dart';
-import 'Result.dart';
+import '../Quiz.dart';
+import '../Response.dart';
+import '../Result.dart';
 
 class Attempt {
   final Quiz quiz;
